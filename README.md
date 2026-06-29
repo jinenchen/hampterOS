@@ -1,4 +1,16 @@
 # hampterOS
-hampter os???? 
+HampterOS 
+A web OS inspired by a cute lil hamster. 
 
-Cool project from hack club, might make it prettier + add more stuff in the future if I feel like it. 
+![Alt Text](/workspaces/hampterOS/Screenshot 2026-06-29 174326.png)
+
+Try it here! 
+https://jinenchen.github.io/hampterOS/
+
+Features: 
+- Web OS with draggable window 
+- Web app that changes your cursor into your favourite hamster! 
+- Scuffed notes app
+
+Credits: 
+https://jams.hackclub.com/batch/webOS
