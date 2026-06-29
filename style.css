@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url('file:///C:/Users/ispri/Documents/jOSh/SnapInsta.to_670135340_18368476231202489_6715889504371862731_n.jpg'); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-size: 100% 100%;
+}
+
+.os-window {
+    background-color: white; 
+    border: solid; 
+    width: 600px; 
+    border-radius: 16px; 
+    padding: 32px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.window-header {
+    cursor: grab;
+    user-select: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.top-bar {
+    position: absolute; 
+    width: 100%; 
+    top: 0; 
+    display: flex; 
+    backdrop-filter: blur(10px); 
+    background-color: rgba(0, 0, 0); 
+    color: #fff; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.left-text {
+    margin-left: 16px;
+}
+
+.right-text {
+    margin-right: 16px;
+}
+
+.taskbar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background-color: rgba(2, 0, 0);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    z-index: 9999;
+    padding: 0 10px;
+}
+
+.taskbar-apps-container {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.taskbar-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: transform 0.2s, filter 0.2s;
+}
+
+.taskbar-icon:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.character-grid {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.character-option {
+    width: 128px;
+    height: 128px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: transform 0.2s, border 0.2s;
+    object-fit: cover;
+}
+
+.reset-cursor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.character-option:hover{
+    transform: scale(1.1);
+    border: 2px solid black;
+}
