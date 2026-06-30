@@ -2,7 +2,7 @@
 HampterOS 
 A web OS inspired by a cute lil hamster. 
 
-![alt text](Screenshot 2026-06-29 174326.png)
+![Alt text](Screenshot%202026-06-29%20174326.png)
 
 Try it here! 
 https://jinenchen.github.io/hampterOS/
